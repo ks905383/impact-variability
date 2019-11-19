@@ -27,10 +27,10 @@ These estimates are not intended to provide accurate projections of future morta
 
 
 ## Data
-* Weather data: ERA-INTERIM, 
+* Weather data: ERA-INTERIM (ERA-5 is better; but also higher-resolution than necessary for this project): https://apps.ecmwf.int/datasets/data/interim-full-daily/levtype=sfc/
 * Climate data: MPI-GE, https://esgf-data.dkrz.de/search/mpi-ge/
 	* Monthly temperature data, historical (1980-1999) and RCP8.5 (2080-2099)
 	* (might limit to 50 runs for reasons of storage space)
-* Damage function: derived from the replication code for Figure X of Deschenes and Greenstone 2011, for temperature-caused county-level mortality rates in the US
+* Damage function: derived from the replication code for Figure 2 of Deschenes and Greenstone 2011, for temperature-caused county-level mortality rates in the US, https://www.aeaweb.org/articles?id=10.1257/app.3.4.152
 * County-level population data: from US Census, https://www.census.gov/data/tables/time-series/demo/popest/2010s-counties-total.html 
 
