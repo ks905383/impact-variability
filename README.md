@@ -1,4 +1,5 @@
 # impact-variability
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ks905383/impact-variability/master)
 
 ## Summary
 Projections of the impact of cliamte change on socioeconomic variables such as mortality, agricultural yields, etc., routinely discount the uncertainty contributed by internal climate model variability. Using 50 runs of a newly-released "large ensemble" that samples internal model variability, projections of heat-related mortality in the United States will be calculated using a well-known heat-mortality "damage function" to get a back-of-the-envelope estimate of this uncertainty.  
