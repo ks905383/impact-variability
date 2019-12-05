@@ -20,3 +20,16 @@ dependencies:
     - esmpy         # explicit, attempt to fix xesmf loading
     - xesmf         # Geographical regridding based on ESMF
     - regionmask
+    - bottleneck    # C-optimized array functions for NumPy
+    - dask          # Parallel processing library
+    - numba         # For speeding up python code
+    - pyresample    # Geographic resampling tools
+    - scikit-learn  # Macine learning library
+    - scikit-image  # Image processing routines
+    - statsmodels   # Regression/modeling toolkit
+    - seaborn       # Statistical visualizations
+    - xgcm          # Tools for working with finite-volume grids
+    - zarr          # Array storage library
+    - numcodecs     # Compression library used by zarr
+    - gcsfs         # Access data from Google Cloud Storage
+    - s3fs          # Access data from Amazon S3
