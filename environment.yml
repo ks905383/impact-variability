@@ -17,19 +17,8 @@ dependencies:
     - scipy         # Common math/stats/science functions
     - tqdm          # Nice progress bar for longer computations
     - xarray        # N-d labeled array library
-    - esmpy         # explicit, attempt to fix xesmf loading
+    - esmpy         # explicit, attempt to fix xesmf
     - xesmf         # Geographical regridding based on ESMF
     - regionmask
-    - bottleneck    # C-optimized array functions for NumPy
-    - dask          # Parallel processing library
-    - numba         # For speeding up python code
-    - pyresample    # Geographic resampling tools
-    - scikit-learn  # Macine learning library
-    - scikit-image  # Image processing routines
-    - statsmodels   # Regression/modeling toolkit
-    - seaborn       # Statistical visualizations
-    - xgcm          # Tools for working with finite-volume grids
-    - zarr          # Array storage library
-    - numcodecs     # Compression library used by zarr
-    - gcsfs         # Access data from Google Cloud Storage
-    - s3fs          # Access data from Amazon S3
+    - pip: 
+        - mpi4py
