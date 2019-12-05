@@ -20,5 +20,3 @@ dependencies:
     - esmpy         # explicit, attempt to fix xesmf
     - xesmf         # Geographical regridding based on ESMF
     - regionmask
-    - pip: 
-        - mpi4py
