@@ -2,8 +2,10 @@ name: final-proj
 channel_priority: strict
 channels:
     - conda-forge
-    - defaults
+    #- defaults
 dependencies:
+    - esmpy         # explicit, attempt to fix xesmf /     - mpi4py
+    - xesmf         # Geographical regridding based on ESMF
     - python=3.7    # Python version 3.7
     - cartopy       # Geographic plotting toolkit
     - h5py          # Wrapper for HDF5
@@ -19,6 +21,4 @@ dependencies:
     - scipy         # Common math/stats/science functions
     - tqdm          # Nice progress bar for longer computations
     - xarray        # N-d labeled array library
-    - esmpy         # explicit, attempt to fix xesmf /     - mpi4py
-    - xesmf         # Geographical regridding based on ESMF
     - regionmask
