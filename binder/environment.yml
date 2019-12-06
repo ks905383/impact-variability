@@ -19,7 +19,6 @@ dependencies:
     - scipy         # Common math/stats/science functions
     - tqdm          # Nice progress bar for longer computations
     - xarray        # N-d labeled array library
-    - mpi4py
-    - esmpy         # explicit, attempt to fix xesmf
+    - esmpy         # explicit, attempt to fix xesmf /     - mpi4py
     - xesmf         # Geographical regridding based on ESMF
     - regionmask
